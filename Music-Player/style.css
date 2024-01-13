@@ -1,0 +1,40 @@
+.nav-link{
+    color: #fff !important;
+    font-size: 1.4rem;
+}
+.search{
+    background-color: transparent;
+    border: 2px solid #fff;
+    font-size: 1.3rem;
+    border-radius: 100px;
+    color: #000;
+}
+.search::placeholder{
+    color: #fff;
+}
+nav button{
+    border-radius: 100px !important;
+}
+
+/* upload.html */
+.upload-image{
+    /* background-color: blue; */
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    min-height: 80vh;
+}
+.upload-image img{
+    min-height: 100%;
+    min-width: 100%;
+}
+.upload-form{
+    padding: 20px;
+}
+.upload-form input{
+    border: 2px solid #cBcBcB;
+}
+.upload-form input:hover{
+    border: 2px solid #3844e0;
+    background-color: #3843e019;
+}

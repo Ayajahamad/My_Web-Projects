@@ -1,0 +1,108 @@
+.main{
+    /* background-color: red; */
+    width: 100%;
+    min-height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    animation: bg-Image 30s infinite;
+    text-align: center;
+}
+.bg{
+    background-color: aqua;
+    width: 100%;
+    min-height: 100vh;
+    object-fit: cover;
+    position: relative;
+    opacity: 0.8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    padding: 20px;
+    background-color: rgb(14, 141, 252);
+    opacity: 1;
+    border-radius: 5px;
+    width: 25%;
+    height: 90vh;
+    z-index: 1;
+}
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+    background-color: aquamarine;
+    padding: 5px;
+    border-radius: 10px;
+}
+.search>input{
+    padding: 15px 20px;
+    border-radius: 10px;
+    border: none;
+    background: transparent;
+    outline: none;
+    font-size: 16px;
+}
+.search>img{
+    height: 30px;
+    width: 30px;
+}
+.weather{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.weather-img{
+    height: 200px;
+    width: 200px;
+}
+.h4{
+    color: red;
+    font-size: 24px;
+    display: none;
+}
+
+@keyframes bg-Image {
+    0%{
+        background: url(../images/bg1.jpg) no-repeat center;
+        background-size: cover;
+    }
+    10%{
+        background: url(../images/bg2.jpg)  no-repeat center;
+        background-size: cover;
+    }
+    20%{
+        background: url(../images/bg3.jpg)  no-repeat center;
+        background-size: cover;
+    }
+    30%{
+        background: url(../images/bg4.jpg)  no-repeat center;
+        background-size: cover;
+    }
+    40%{
+        background: url(../images/bg5.jpg)  no-repeat center;
+        background-size: cover;
+    }
+    60%{
+        background: url(../images/bg6.jpg)  no-repeat center;
+        background-size: cover;
+    }
+    70%{
+        background: url(../images/bg7.jpg)  no-repeat center;
+        background-size: cover;
+    }
+    80%{
+        background: url(../images/bg1.jpg)  no-repeat center;
+        background-size: cover;
+    }
+    90%{
+        background: url(../images/bg2.jpg)  no-repeat center;
+        background-size: cover;
+    }
+    100%{
+        background: url(../images/bg3.jpg) center no-repeat;
+        background-size: cover;
+    }
+}

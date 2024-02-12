@@ -57,6 +57,8 @@
 .weather-img{
     height: 200px;
     width: 200px;
+    margin-top: 5px;
+    border-radius: 10px;
 }
 .h4{
     color: red;

@@ -1,0 +1,68 @@
+/* .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+} */
+
+.hidden {
+    display: none;
+}
+
+.movie-images img {
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+#seat-map,#seat-map1,#seat-maps1,#seat-maps2,#seat-mapp1,#seat-mapp2 {
+    display: grid;
+    grid-template-columns: repeat(10, 40px);
+    gap: 5px;
+    margin-top: 10px;
+}
+
+.seat {
+    width: 60px;
+    height: 60px;
+    border: 1px solid #ccc;
+    background-color: #eee;
+    cursor: pointer;
+    text-align: center;
+}
+
+.pri {
+    width: 60px;
+    height: 60px;
+    border: 1px solid #ccc;
+    background-color: #66888e;
+    cursor: pointer;
+    text-align: center;
+}
+
+.seat.selected,.pri.selected {
+    background-color: #37BC9B;
+}
+
+.seat.booked,.pri.booked {
+    background-color: green;
+}
+
+#seat-count-selection{
+    /* display: none; */
+}
+
+.custom-bullet li:first-child::marker {
+    color: #9d9292; 
+    font-size: 40px;
+}
+.custom-bullet li:last-child::marker {
+    color: #37BC9B; 
+    font-size: 40px;
+}
+.custom-bullet li:nth-child(2)::marker {
+    color: green; 
+    font-size: 40px;
+}
+hr{
+    height: 10px;
+    padding: 5px;
+}
